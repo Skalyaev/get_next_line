@@ -1,4 +1,4 @@
-#include "get_next_line_bonus.h"
+#include "../include/bonus/get_next_line_bonus.h"
 #include "stdio.h"
 
 int     main(int ac, char**av)

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line_bonus.h"
+#include "../include/bonus/get_next_line_bonus.h"
 
 ssize_t	new_read(char **readed, t_list *rest, t_list *begin)
 {
