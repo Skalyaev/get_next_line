@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: anguinau <anguinau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/24 16:24:32 by anguinau          #+#    #+#             */
-/*   Updated: 2020/11/28 00:50:48 by anguinau         ###   ########.fr       */
+/*   Updated: 2020/11/28 00:52:17 by anguinau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/get_next_line.h"
+#include "../../include/get_next_line_bonus.h"
 
 ssize_t new_read(char **readed, t_list *rest, t_list *begin)
 {

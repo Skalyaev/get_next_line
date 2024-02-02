@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/get_next_line.h"
+#include "../../include/get_next_line.h"
 
 void ft_lstclear(t_list **lst)
 {
