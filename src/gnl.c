@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/get_next_line.h"
+#include "../include/gnl.h"
 
 ssize_t new_read(char **readed, t_list *rest, t_list *begin)
 {

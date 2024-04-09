@@ -1,12 +1,17 @@
-#include "../../include/get_next_line.h"
+#include "../include/gnl.h"
 #include "stdio.h"
+#include "stdlib.h"
+#include "fcntl.h"
 
-int main(void)
+int main(int ac, char **av)
 {
+        int fd = 0;
+        if (ac > 1)
+                fd = open(av[1], O_RDONLY);
         char **line = malloc(sizeof(char **));
         if (!line)
                 return (1);
-        while (get_next_line(0, line))
+        while (get_next_line(fd, line))
         {
                 printf("%s\n", *line);
                 free(*line);

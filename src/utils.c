@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
+/*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: anguinau <anguinau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/24 16:23:35 by anguinau          #+#    #+#             */
-/*   Updated: 2020/11/28 00:01:28 by anguinau         ###   ########.fr       */
+/*   Updated: 2020/11/28 00:01:12 by anguinau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/get_next_line_bonus.h"
+#include "../include/gnl.h"
 
 void ft_lstclear(t_list **lst)
 {
