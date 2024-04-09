@@ -1,7 +1,10 @@
 # get_next_line
-> *Ce projet vise à vous faire développer une fonction renvoyant une ligne lue depuis un descripteur de fichier.*
+> *Ce projet vise à vous faire développer une fonction renvoyant les lignes lues depuis un descripteur de fichier.*
 
 Ce projet vous permettra non seulement d'ajouter une fonction très pratique à votre collection, mais aussi d'aborder un nouvel élément surprenant de la programmation en C : les variables statiques.
+
+## Preview
+[![preview](https://github.com/Skalyaeve/images/tree/main/screenshot/gnl.gif)
 
 ## Install
 ```bash
