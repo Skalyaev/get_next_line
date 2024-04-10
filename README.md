@@ -1,6 +1,8 @@
 # get_next_line
 > *Ce projet vise à vous faire développer une fonction renvoyant les lignes lues depuis un descripteur de fichier.*
 
+Que ce soit un fichier, stdin, ou même plus tard une connexion réseau, vous aurez toujours besoin d'un moyen de lire le contenu ligne par ligne. Il est temps de commencer à travailler sur cette fonction, qui sera essentielle pour vos projets futurs.
+
 Ce projet vous permettra non seulement d'ajouter une fonction très pratique à votre collection, mais aussi d'aborder un nouvel élément surprenant de la programmation en C : les variables statiques.
 
 ## Preview
@@ -11,7 +13,6 @@ Ce projet vous permettra non seulement d'ajouter une fonction très pratique à 
 sudo apt update -y
 sudo apt install -y gcc
 sudo apt install -y make
-sudo apt install -y git
 ```
 ```bash
 mkdir -p $HOME/.local/bin
