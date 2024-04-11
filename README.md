@@ -6,7 +6,7 @@ Que ce soit un fichier, stdin, ou même plus tard une connexion réseau, vous au
 Ce projet vous permettra non seulement d'ajouter une fonction très pratique à votre collection, mais aussi d'aborder un nouvel élément surprenant de la programmation en C : les variables statiques.
 
 ## Preview
-![](https://github.com/Skalyaeve/images/blob/main/screenshot/gnl.gif)
+![](https://github.com/Skalyaeve/images-1/blob/main/screenshot/gnl.gif)
 
 ## Install
 ```bash
