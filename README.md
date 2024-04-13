@@ -5,10 +5,10 @@
 >
 > *Ce projet vous permettra non seulement d'ajouter une fonction très pratique à votre collection, mais aussi d'aborder un nouvel élément surprenant de la programmation en C : les variables statiques.*
 
-## Aperçu
+## Preview
 ![](https://github.com/Skalyaeve/images-1/blob/main/screenshot/gnl.gif)
 
-## Installer
+## Install
 ```bash
 sudo apt update -y
 sudo apt install -y gcc
@@ -31,18 +31,19 @@ ln -s $PWD/src $HOME/.local/src/$name
 ln -s $PWD/include $HOME/.local/include/$name
 ```
 
-## Utiliser
+## Usage
 ```bash
 export PATH=$HOME/.local/bin:$PATH
 gnl [file]
 ```
 
-## Désinstaller
+## Uninstall
 ```bash
 name=gnl
 
-rm -r $name
+rm -rf $name
 rm $HOME/.local/bin/$name
 rm $HOME/.local/src/$name
 rm $HOME/.local/include/$name
 ```
+
