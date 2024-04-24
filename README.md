@@ -20,10 +20,9 @@ mkdir -p $HOME/.local/src
 mkdir -p $HOME/.local/include
 ```
 ```bash
-link=Skalyaeve/get_next_line
 name=gnl
 
-git clone https://github.com/$link.git $name
+git clone https://github.com/Skalyaeve/get_next_line.git $name
 cd $name && make && make clean
 
 ln -s $PWD/$name $HOME/.local/bin/$name
