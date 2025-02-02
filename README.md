@@ -8,7 +8,7 @@
 
 ## Preview
 
-![](https://github.com/Skalyaeve/images-1/blob/main/screenshot/gnl.gif)
+![](https://github.com/Skalyaev/get_next_line/blob/main/preview.gif)
 
 ## Install
 
